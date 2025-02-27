@@ -1,0 +1,9 @@
+GET http://0.0.0.0:5000/chat/
+
+###
+POST http://0.0.0.0:5000/chat/
+Content-Type: application/json
+
+{
+    "chat_query": "Who are you?"
+}
